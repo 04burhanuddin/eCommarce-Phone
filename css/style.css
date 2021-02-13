@@ -1,0 +1,485 @@
+/* bagian liar */
+*{
+  margin:0;
+  padding:0;
+  outline:0;
+
+}
+/*and luar*/
+
+body{
+	font-size: 13px;
+	line-height: 15px;
+	font-family: arial, sans-serif;
+	color: #fff;
+	min-width: 980px;
+	background-color: #e1dcc6;
+	background-repeat: repeat;
+	background-position: 0px 0px;
+	}
+/*end body */
+
+/*mengatur teks product baru*/
+h3{
+	font-size: 26px;
+	line-height: 26px;
+	color: #1898d6;
+	text-align: center;
+}
+/*end teks product baru*/
+
+/*mengatur teks yang peringatan*/
+h4{
+	font-size: 18px;
+	line-height: 19px; 
+	color: #ffffff;
+}
+/*end text peringatan*/
+
+/*mengatur style teks product*/
+a{
+	color: #0252aa;
+	text-decoration: none;
+	cursor: pointer;
+}
+/*end teks product*/
+
+/*untuk menghilangkan titik sosial media*/
+ol,ul{
+	list-style: none outside none; 
+}
+/*end social media*/
+
+/*untuk mengatur jarak antara logo dan amazing slider*/
+.cl{
+	display: block; 
+	height: 0; 
+	font-size: 0; 
+	line-height: 0; 
+	text-indent: -4000px; 
+	clear: both; 
+}
+/*end amazing slider*/
+
+/*wrapper*/
+#wrapper{
+	min-height: 100%; 
+	height: auto !important; 
+	height: 100%; 
+	margin: 0 auto -318px;
+}
+/*end wrapper*/
+
+/*shell mengatur posisi  */
+.shell{
+	width: 980px;
+	height: auto;
+	margin-top: 0;
+	margin-right: auto;
+	margin-bottom: 0;
+	margin-left: auto;
+}
+/*end shell posisi*/
+
+/*top mengatur tampilan  */
+#top{
+	background: url(images/top-bg.png) repeat-x 0 0; 
+	height: 38px;
+	padding: 7px 4px 0 0; 
+}
+/*end top tampilan*/
+
+/*top nav*/
+.top-nav{ 
+	float: left; 
+	display: inline; 
+	padding: 10px 0 0 0; 
+	font-size: 12px; 
+	line-height: 12px; 
+}
+.top-nav ul li { 
+	float: left; 
+	display: inline; 
+	padding: 0 13px; 
+	border-right: solid 1px #4bb1e5; 
+}
+.top-nav ul li.nobg { 
+	border-right: 0; 
+}
+.top-nav ul li.first {  
+	padding-left: 2px; 
+}
+.top-nav ul li a {
+	float: left;
+	color: #aee4ff;
+}
+/*mengatur tampilan keranjang belanjaan*/
+.top-nav ul li a.bag {
+	background: url(images/bag.png) no-repeat right 0;
+	height: 26px; 
+	padding: 10px 38px 0 0; 
+	position: relative; 
+	margin-top: -10px; 
+}
+/*end tampilan keranjang baelanjaan*/
+/*end top nav*/
+
+/*search*/
+/*mengatur tampilan dan posisi search*/
+#search{ 
+	float: right; 
+	display: inline; background: url(images/search-bg.png) no-repeat 0 0;
+	width: 120px; 
+	height: 15px; 
+	padding: 7px 35px 6px 15px; 
+}
+#search input.field{ 
+	line-height: 15px; 
+	background: transparent; 
+	border: 0; 
+	color: #fff; 
+	font-family: Georgia, serif; font-style: italic; 
+	width: 120px; 
+}
+/*end search*/
+
+/*main*/
+#main{
+	padding: 0 0 60px 0; 
+	background: url(images/main-bg.png) repeat-x 0 bottom; 
+}
+/*end main*/
+
+/*header mengatur tampilan arak nav dengan top*/
+#header{
+	padding: 22px 0 17px 0; 
+}
+/*end header */
+
+/*h1 mengkondisikan tampilan logo*/
+h1#logo{
+	width: 298px; 
+	float: left; 
+	display: inline; 
+}
+/*end penkondisian*/
+
+/*mengatur gambar logo*/
+h1#logo a{ 
+	display: block; 
+	background: url(images/logo.png) no-repeat 0 0; 
+	height: 63px; 
+}
+/*end logo*/
+
+/*mengatur posisi navigasi*/
+#navigation { 
+	padding: 3px 2px 0 0; 
+	float: right; display: inline; 
+}
+/*end navigasi*/
+
+/*mengatur urutan navigasi*/
+#navigation ul li { 
+	float: left; 
+	display: inline; 
+	line-height: 45px; 
+	font-size: 18px; 
+	font-family: Georgia, serif; 
+	padding: 0 0 0 5px; 
+}
+/*end urutan*/
+
+/*mengatur efek navigas*/
+#navigation li a { 
+	color: #000; 
+	letter-spacing: -1px; 
+}
+/*mengatur navigasi product */
+#navigation ul li a,
+#navigation li a span { 
+	float: left; 
+	display: inline; 
+	height: 45px; 
+	padding: 0 0 0 26px; 
+}
+/*end navigasi product*/
+
+/*mengatur tampilan nav*/
+#navigation li a span { padding: 0 26px 0 0; }
+#navigation li a:hover,.active, li a.hover { 
+	background:url(images/nav-bg.png) no-repeat 0 0; 
+	text-decoration: none; 
+}
+/*end tampilan nav*/
+#navigation li a:hover span, a.active span,.hover span { 
+	background:url(images/nav-bg.png) no-repeat right 0; 
+}
+/*end navigation*/
+
+/*content*/
+#content { 
+	padding: 30px 0 0 0; 
+}
+/*end content*/
+
+/*untuk mengatur jarak antara product dengan garis putus-putus*/
+.case h3 { 
+	padding: 0 0 12px 15px; 
+	background: url(images/border.png) repeat-x 0 bottom; 
+	font-style: italic; 
+	font-family: georgia, serif; 
+}
+/*garis putus-putus*/
+
+/*row*/
+.row {
+	background: url(images/border.png) repeat-x 0 bottom;
+	width: 980px;
+	overflow: hidden;
+	padding-top: 20px;
+	padding-right: 0;
+	padding-bottom: 23px;
+	padding-left: 0;
+}
+/*end row*/
+
+.row ul { 
+	width: 1017px; 
+	display: block; 
+	position: relative; 
+}
+/*row ul li */
+.row ul li { 
+	float: left; 
+	display: inline; 
+	width: 232px; 
+	height: 266px; 
+	padding: 0 19px 0 0; 
+}
+/*end row*/
+
+/*product*/
+.product { 
+	background: url(images/product-bg.png) no-repeat 0 0; 
+	width: 202px; 
+	height: 252px; padding: 14px 14px 0 16px; 
+	display: block; 
+	font-size: 14px; 
+	line-height: 18px; 
+	color: #2f3032; 
+	font-family: georgia, serif; 
+}
+.product { 
+	font-style: italic; 
+}
+.product img { 
+	padding: 0 0 10px 0; 
+	position: relative; 
+	margin-left: -2px; 
+}
+.product .order { 
+	display: block; 
+}
+.product .model { 
+	font-size: 16px; 
+	color: #1898d6; 
+	padding: 0 0 2px 0; 
+}
+/*mengatur jenis teksa angaka*/
+.product .number { 
+	font-family: arial, sans-serif; 
+	font-style: normal; 
+}
+/*end angka*/
+
+/*mengatur teks buy*/
+.product .buy-text { 
+	font-size: 18px; 
+	line-height: 30px; 
+	color: #ffba00; 
+	font-style: normal; 
+	font-weight: bold; 
+	letter-spacing: -1px; 
+	float: left; display: inline; 
+	padding: 8px 0 0 0; 
+}
+/*end buy*/
+
+/*mengatur teks price /harga */
+.product .price {
+	font-size: 18px;
+	line-height: 30px;
+	float: right;
+	display: inline;
+	font-style: normal;
+	color: #1898d6;
+	font-family: Tahoma, Geneva, sans-serif;
+	margin-right: auto;
+	padding-top: 8px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+}
+/*end harga*/
+
+.product .sub-text {
+	font-size: 20px;
+	line-height: 20px;
+	vertical-align: super;
+}
+/*mengatur teks rp*/
+.product .rp {
+	font-size: 18px;
+	font-family: Tahoma, Geneva, sans-serif;
+}
+/*end teks rp */
+
+/*mengatur efek click product*/
+.product:hover,
+.product.hover { 
+	background: url(images/product-hover.png) no-repeat 0 0; 
+	text-decoration: none; 
+}
+.product.hover .model {
+	font-weight: bold; 
+}
+/*end efek */
+.product.hover .buy-text { color: #ff7800; }
+/*end product*/
+
+/*footer*/
+#footer, #footer-push {
+	overflow: hidden;
+}
+/*mengetur background footer*/
+#footer { 
+	background: #1a719e url(images/footer-bg.png) repeat-x 0 0; 
+	padding: 24px 0 0 0; 
+}
+/*end background*/
+#footer .cols { 
+	width: 980px; 
+	overflow: hidden; 
+	min-height: 238px; 
+}
+#footer .cols ul { 
+	position: relative;
+	height: auto;
+	width: auto;
+}
+/*mengatur tampilan footer*/
+#footer .cols .col {
+	width: 225px;
+	display: inline;
+	padding-top: 0px;
+	padding-right: 40px;
+	padding-bottom: 0px;
+	padding-left: 55px;
+	float: left;
+	text-align: justify;
+}
+/*end tampilan*/
+
+/*mengetur efek isi footer*/
+#footer .col h4 { 
+	font-style: italic; 
+	font-family: georgia, serif; 
+	padding: 0 0 7px 5px; 
+	border-bottom: dotted 2px #3799cb; 
+	margin-bottom: 15px; 
+}
+/*end isi*/
+
+/*mengetur teks perhatian*/
+#footer .col p {
+	color: #90c6e2;
+	padding-top: 0;
+	padding-right: 0;
+	padding-bottom: 12px;
+	padding-left: 0;
+}
+/*end teks perhatian*/
+
+/*more link*/
+#footer .col a { 
+	color: #104662; 
+}
+/*more link*/
+
+/*mengatur tampilan lanjutkan membaca*/
+#footer .col a.more-link { 
+	color: #ffba00; 
+	font-size: 12px; 
+	display: inline;
+}
+/*end tampilan lanjutkan membaca*/
+
+/*footer social media */
+#footer .social ul li { 
+	line-height: 23px; 
+	font-size: 13px; 
+	font-weight: bold; 
+	padding: 0 0 5px 0; 
+	width: 100px; 
+}
+/*end footer social*/
+
+/*mnegatur warna teks social*/
+#footer .social a { 
+	color: #90c6e2; 
+	padding: 0 0 0 36px; 
+	display: block; 
+}
+/*end social*/
+
+/*footer sosial media*/
+#footer .social a.fb-link { 
+	background: url(images/f-icon.png) no-repeat 0 0; 
+}
+#footer .social a.instagram-link { 
+	background: url(images/i-icon.png) no-repeat 0 0; 
+}
+#footer .social a.twitter-link { 
+	background: url(images/t-icon.png) no-repeat 0 0; 
+}
+#footer .social a.whatsapp-link { 
+	background: url(images/w-icon.png) no-repeat 0 0; 
+}
+/*end footer sosial media*/
+
+/*footer tutan link*/
+#footer .tautan ul li { 
+	background: url(images/point.png) no-repeat 0 0; 
+	padding: 0 0 14px 26px; 
+	font-size: 12px; 
+	line-height: 12px; 
+	display: block; 
+}
+/*end footer tautan*/
+
+/*mengatur warna teks*/
+#footer .tautan ul li a {
+	color: #ffba00;
+}
+/*end warna */
+
+#footer .contact { 
+	width: 230px !important; 
+	padding-right: 0 !important; 
+}
+#footer .copy { 
+	float: left; 
+	display: inline; 
+	padding: 24px 0 0 0; 
+	font-weight: bold; 
+	color: #5f9cbb; 
+}
+#footer .copy a { 
+	color: #5f9cbb; 
+}
+#footer a.logo { 
+	float: right; 
+	display: inline; 
+}
+/*end footer
